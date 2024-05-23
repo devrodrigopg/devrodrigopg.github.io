@@ -1,4 +1,5 @@
 function startEPUB(path) {
+  $("#splashScreen").show();
   if (xreader.callAppMethod && path) {
     const renditionsMobile = document.createElement("script");
     const renditionsDesktop = document.createElement("script");
@@ -13,6 +14,7 @@ function startEPUB(path) {
     document.head.appendChild(renditionsDesktop);
 
     setTimeout(() => {
+      $("#splashScreen").hide();
       xreader.callAppMethod("Inited", null, path);
     }, 2000);
   }
