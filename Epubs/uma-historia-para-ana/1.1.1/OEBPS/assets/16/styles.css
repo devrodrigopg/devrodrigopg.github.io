@@ -1,0 +1,1921 @@
+div.SCContent {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.SCAnimation canvas {
+	/*
+	-ms-transform: scale(0.66666666666666662965923251249478198587894439697266);
+	-moz-transform: scale(0.66666666666666662965923251249478198587894439697266);
+	-webkit-transform: scale(0.66666666666666662965923251249478198587894439697266);
+	transform: scale(0.66666666666666662965923251249478198587894439697266);
+	-ms-transform-origin: 0px 0px;
+	-moz-transform-origin: 0px 0px;
+	-webkit-transform-origin: 0px 0px;
+	transform-origin: 0px 0px;
+	*/
+	pointer-events: none;
+}
+
+div#obj1976 {
+position: absolute;
+overflow: hidden;
+top: 296px;
+left: 745px;
+width: 45px;
+height: 42px;
+opacity: 1;
+z-index: 10;
+display:block;
+pointer-events: auto;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+div#obj1970 {
+position: absolute;
+overflow: hidden;
+top: 348px;
+left: 770px;
+width: 54px;
+height: 49px;
+opacity: 1;
+z-index: 11;
+display:block;
+pointer-events: auto;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+div#obj1964 {
+position: absolute;
+overflow: hidden;
+top: 196px;
+left: 563px;
+width: 47px;
+height: 34px;
+opacity: 1;
+z-index: 12;
+display:block;
+pointer-events: auto;
+-webkit-transform: rotate(-19.67647deg);
+-moz-transform: rotate(-19.67647deg);
+transform: rotate(-19.67647deg);
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+div#obj1958 {
+position: absolute;
+overflow: hidden;
+top: 267px;
+left: 502px;
+width: 47px;
+height: 30px;
+opacity: 1;
+z-index: 13;
+display:block;
+pointer-events: auto;
+-webkit-transform: rotate(-28.71007deg);
+-moz-transform: rotate(-28.71007deg);
+transform: rotate(-28.71007deg);
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+div#obj1952 {
+position: absolute;
+overflow: hidden;
+top: 227px;
+left: 614px;
+width: 54px;
+height: 54px;
+opacity: 1;
+z-index: 14;
+display:block;
+pointer-events: auto;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+div#obj1946 {
+position: absolute;
+overflow: hidden;
+top: 288px;
+left: 610px;
+width: 79px;
+height: 36px;
+opacity: 1;
+z-index: 15;
+display:block;
+pointer-events: auto;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+div#obj1940 {
+position: absolute;
+overflow: hidden;
+top: 377px;
+left: 624px;
+width: 35px;
+height: 43px;
+opacity: 1;
+z-index: 16;
+display:block;
+pointer-events: auto;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+div#obj1932 {
+position: absolute;
+overflow: hidden;
+top: -7px;
+left: -120px;
+width: 100px;
+height: 100px;
+opacity: 1;
+z-index: 18;
+display:none;
+pointer-events: none;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+div#obj2006 {
+position: absolute;
+overflow: hidden;
+top: 97px;
+left: 28px;
+width: 413px;
+height: 348px;
+opacity: 1;
+z-index: 1;
+display:block;
+pointer-events: none;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.6078431));
+will-change: filter;
+-webkit-filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.6078431));
+}
+img#obj2006_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 413px;
+	height: 348px;
+}
+div#obj2003 {
+position: absolute;
+overflow: hidden;
+top: 98px;
+left: 483px;
+width: 414px;
+height: 347px;
+opacity: 1;
+z-index: 2;
+display:block;
+pointer-events: none;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.6078431));
+will-change: filter;
+-webkit-filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.6078431));
+}
+img#obj2003_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 414px;
+	height: 347px;
+}
+div#obj2000 {
+position: absolute;
+overflow: hidden;
+top: 281px;
+left: 750px;
+width: 40px;
+height: 47px;
+opacity: 1;
+z-index: 3;
+display:none;
+pointer-events: none;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+img#obj2000_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 40px;
+	height: 47px;
+}
+div#obj1997 {
+position: absolute;
+overflow: hidden;
+top: 189px;
+left: 568px;
+width: 40px;
+height: 47px;
+opacity: 1;
+z-index: 4;
+display:none;
+pointer-events: none;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+img#obj1997_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 40px;
+	height: 47px;
+}
+div#obj1994 {
+position: absolute;
+overflow: hidden;
+top: 340px;
+left: 769px;
+width: 40px;
+height: 47px;
+opacity: 1;
+z-index: 5;
+display:none;
+pointer-events: none;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+img#obj1994_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 40px;
+	height: 47px;
+}
+div#obj1991 {
+position: absolute;
+overflow: hidden;
+top: 273px;
+left: 518px;
+width: 28px;
+height: 29px;
+opacity: 1;
+z-index: 6;
+display:none;
+pointer-events: none;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+img#obj1991_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 28px;
+	height: 29px;
+}
+div#obj1988 {
+position: absolute;
+overflow: hidden;
+top: 221px;
+left: 629px;
+width: 40px;
+height: 47px;
+opacity: 1;
+z-index: 7;
+display:none;
+pointer-events: none;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+img#obj1988_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 40px;
+	height: 47px;
+}
+div#obj1985 {
+position: absolute;
+overflow: hidden;
+top: 272px;
+left: 621px;
+width: 40px;
+height: 47px;
+opacity: 1;
+z-index: 8;
+display:none;
+pointer-events: none;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+img#obj1985_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 40px;
+	height: 47px;
+}
+div#obj1982 {
+position: absolute;
+overflow: hidden;
+top: 365px;
+left: 621px;
+width: 40px;
+height: 47px;
+opacity: 1;
+z-index: 9;
+display:none;
+pointer-events: none;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+img#obj1982_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 40px;
+	height: 47px;
+}
+div#obj1925 {
+position: absolute;
+overflow: hidden;
+top: -7px;
+left: -7px;
+width: 939px;
+height: 532px;
+opacity: 1;
+z-index: 21;
+display:none;
+pointer-events: none;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+img#obj1925_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 939px;
+	height: 532px;
+}
+
+div#obj1938 {
+position: absolute;
+overflow: hidden;
+top: 15px;
+left: 240px;
+width: 444px;
+height: 54px;
+opacity: 1;
+z-index: 17;
+display:block;
+pointer-events: auto;
+user-select: text;  
+-moz-user-select: text;
+-webkit-user-select: text;
+-ms-user-select: text;
+filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.6078431));
+will-change: filter;
+-webkit-filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.6078431));
+}
+div#obj1938_content {
+}
+div#obj1923 {
+position: absolute;
+overflow: hidden;
+top: 186px;
+left: 124px;
+width: 678px;
+height: 137px;
+opacity: 1;
+z-index: 22;
+display:none;
+pointer-events: auto;
+user-select: text;  
+-moz-user-select: text;
+-webkit-user-select: text;
+-ms-user-select: text;
+filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.6078431));
+will-change: filter;
+-webkit-filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.6078431));
+}
+div#obj1923_content {
+}
+
+
+
+div#obj413 {
+position: absolute;
+overflow: hidden;
+top: -7px;
+left: -6px;
+width: 937px;
+height: 535px;
+opacity: 1;
+z-index: 0;
+display:block;
+pointer-events: none;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+background-image: none;
+border-color: #000000;
+border-width: 0px;
+border-style: solid;
+border-radius: 0px;
+-moz-border-radius: 0px;
+-webkit-border-radius: 0px;
+background-color: #F5B858;
+background-repeat: repeat;
+}
+
+audio#obj1930 {
+position: absolute;
+overflow: hidden;
+top: 147px;
+left: 971px;
+width: 256px;
+height: 192px;
+opacity: 1;
+z-index: 19;
+display:block;
+pointer-events: auto;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+audio#obj1928 {
+position: absolute;
+overflow: hidden;
+top: 350px;
+left: 972px;
+width: 256px;
+height: 192px;
+opacity: 1;
+z-index: 20;
+display:block;
+pointer-events: auto;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+audio#obj1919 {
+position: absolute;
+overflow: hidden;
+top: 553px;
+left: 675px;
+width: 455px;
+height: 108px;
+opacity: 1;
+z-index: 23;
+display:block;
+pointer-events: auto;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+
+
+
+
+
+
+
+
+
+
+body {
+font-family: Lato, Arial, Helvetica, Sans-Serif;
+font-size: 20px;
+line-height: 1.2;
+color: #000000
+}
+p, h1, h2, h3, h4, h5, h6 { margin: 0px; padding: 0px; }
+:link { color: #0A52A2; }
+:visited { color: #5B2599; }
+body {
+font-family: Lato, Arial, Helvetica, Sans-Serif;
+font-size: 20px;
+line-height: 1.2;
+color: #000000
+}
+p, h1, h2, h3, h4, h5, h6 { margin: 0px; padding: 0px; }
+:link { color: #0A52A2; }
+:visited { color: #5B2599; }
+
+/*
+Styles imported from InDesign document "MIOLO UMA HISTORIA PARA ANA.indd"
+3/26/2024 10:04 AM
+*/
+div.Basic-Graphics-Frame {
+	border-color:#000000;
+	border-width:1px;
+	border-style:solid;
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA p.ParaOverride-1 {
+	white-space: nowrap; 
+}
+.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA p.ParaOverride-1 {
+	line-height: 1;
+	white-space: inherit
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-1 {
+	font-size: 1811px; 
+}
+.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-1 {
+	color: #ffd289;
+	font-family: "PraterBlockOne-Back (OTF) Regular", sans-serif;
+	font-size: 90.55000000000001136868377216160297393798828125px;
+	font-style: normal;
+	font-weight: normal
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-2 {
+	font-size: 1811px; 
+}
+.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-2 {
+	color: #0071b1;
+	font-family: "PraterBlockOne-Regular (OTF) Regular", sans-serif;
+	font-size: 90.55000000000001136868377216160297393798828125px;
+	font-style: normal;
+	font-weight: normal
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-3 {
+	font-size: 939.4px; 
+}
+.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-3 {
+	color: #fec259;
+	font-family: "PraterBlockOne-Back (OTF) Regular", sans-serif;
+	font-size: 46.969999999999998863131622783839702606201171875px;
+	font-style: normal;
+	font-weight: normal
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-4 {
+	font-size: 939.4px; 
+}
+.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-4 {
+	color: #0071b1;
+	font-family: "PraterBlockOne-Regular (OTF) Regular", sans-serif;
+	font-size: 46.969999999999998863131622783839702606201171875px;
+	font-style: normal;
+	font-weight: normal
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-5 {
+	font-size: 580px; 
+}
+.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-5 {
+	color: #000000;
+	font-family: "Roboto-Slab", sans-serif;
+	font-size: 29px;
+	font-style: normal;
+	font-weight: normal
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-6 {
+	font-size: 180.4px; 
+}
+.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-6 {
+	color: #000000;
+	font-family: Nunito, sans-serif;
+	font-size: 9.0200000000000013500311979441903531551361083984375px;
+	font-style: normal;
+	font-weight: normal
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-7 {
+	font-size: 180.4px; 
+}
+.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-7 {
+	color: #000000;
+	font-family: Nunito, sans-serif;
+	font-size: 9.0200000000000013500311979441903531551361083984375px;
+	font-style: normal;
+	font-weight: bold
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-8 {
+	font-size: 190px; 
+}
+.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-8 {
+	color: #000000;
+	font-family: Nunito, sans-serif;
+	font-size: 9.5px;
+	font-style: normal;
+	font-weight: bold
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-9 {
+	font-size: 190px; 
+}
+.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-9 {
+	color: #000000;
+	font-family: Nunito, sans-serif;
+	font-size: 9.5px;
+	font-style: normal;
+	font-weight: normal
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-10 {
+	font-size: 170px; 
+}
+.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-10 {
+	color: #000000;
+	font-family: Nunito, sans-serif;
+	font-size: 8.5px;
+	font-style: normal;
+	font-weight: normal
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-11 {
+	font-size: 170px; 
+}
+.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-11 {
+	color: #000000;
+	font-family: Nunito, sans-serif;
+	font-size: 8.5px;
+	font-style: normal;
+	font-weight: bold
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-12 {
+	font-size: 200px; 
+}
+.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-12 {
+	color: #000000;
+	font-family: "Berling LT Std Roman", serif;
+	font-size: 10px;
+	font-style: italic;
+	font-weight: normal
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-13 {
+	font-size: 840px; 
+}
+.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-13 {
+	color: #ffffff;
+	font-family: "PraterBlockOne-Back (OTF) Regular", sans-serif;
+	font-size: 42px;
+	font-style: normal;
+	font-weight: normal
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-14 {
+	font-size: 840px; 
+}
+.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-14 {
+	color: #000000;
+	font-family: "PraterBlockOne-Regular (OTF) Regular", sans-serif;
+	font-size: 42px;
+	font-style: normal;
+	font-weight: normal
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-15 {
+	font-size: 260px; 
+}
+.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-15 {
+	color: #000000;
+	font-family: "Roboto-Slab", sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: normal
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-16 {
+	font-size: 340px; 
+}
+.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-16 {
+	color: #000000;
+	font-family: "PraterBlockOne-Fill", sans-serif;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 500
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-17 {
+	font-size: 840px; 
+}
+.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-17 {
+	color: #ffffff;
+	font-family: "PraterBlockOne-Regular (OTF) Regular", sans-serif;
+	font-size: 42px;
+	font-style: normal;
+	font-weight: normal
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-18 {
+	font-size: 260px; 
+}
+.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-18 {
+	color: #ffffff;
+	font-family: "Roboto-Slab", sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: normal
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-19 {
+	font-size: 830.8px; 
+}
+.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-19 {
+	color: #ffffff;
+	font-family: "PraterBlockOne-Back (OTF) Regular", sans-serif;
+	font-size: 41.53999999999999914734871708787977695465087890625px;
+	font-style: normal;
+	font-weight: normal
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-20 {
+	font-size: 340px; 
+}
+.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-20 {
+	color: #ffffff;
+	font-family: "PraterBlockOne-Fill", sans-serif;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 500
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-21 {
+	font-size: 340px; 
+}
+.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-21 {
+	color: #ffffff;
+	font-family: "Prater Sans", sans-serif;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: uppercase
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-22 {
+	font-size: 560px; 
+}
+.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-22 {
+	color: #000000;
+	font-family: "Academy Engraved LET", serif;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: normal
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-23 {
+	font-size: 240px; 
+}
+.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-23 {
+	color: #000000;
+	font-family: "Roboto-Slab", sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-24 {
+	font-size: 240px; 
+}
+.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-24 {
+	color: #000000;
+	font-family: "Roboto Slab", serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-25 {
+	font-size: 260px; 
+}
+.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA span.CharOverride-25 {
+	color: #000000;
+	font-family: "Roboto Slab", serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: normal
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer000, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer001, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer011, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer012 {
+	-webkit-transform: translate(0.000px,-20.288px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 120.89px;
+	left: 0.000px;
+	position: absolute;
+	top: 20.288px;
+	transform: translate(0.000px,-20.288px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 183.16px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer002 {
+	-webkit-transform: translate(260.882px,233.470px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 91.02px;
+	left: -260.882px;
+	position: absolute;
+	top: -233.470px;
+	transform: translate(260.882px,233.470px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 183.16px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer003 {
+	-webkit-transform: translate(239.527px,282.911px) rotate(359.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 247.03px;
+	left: -239.527px;
+	position: absolute;
+	top: -282.911px;
+	transform: translate(239.527px,282.911px) rotate(359.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 211.95px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer004, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer005 {
+	-webkit-transform: translate(-59.528px,168.994px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 151.67px;
+	left: 59.528px;
+	position: absolute;
+	top: -168.994px;
+	transform: translate(-59.528px,168.994px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 337.03px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer006 {
+	-webkit-transform: translate(-14.591px,-13.674px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 707.66px;
+	left: 14.591px;
+	position: absolute;
+	top: 13.674px;
+	transform: translate(-14.591px,-13.674px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 609.87px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer007, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer008 {
+	-webkit-transform: translate(535.748px,74.033px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 151.67px;
+	left: -535.748px;
+	position: absolute;
+	top: -74.033px;
+	transform: translate(535.748px,74.033px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 337.03px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer009 {
+	-webkit-transform: translate(156.439px,263.624px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 45.25px;
+	left: -156.439px;
+	position: absolute;
+	top: -263.624px;
+	transform: translate(156.439px,263.624px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 282.40px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer010 {
+	-webkit-transform: translate(227.658px,350.787px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 173.79px;
+	left: -227.658px;
+	position: absolute;
+	top: -350.787px;
+	transform: translate(227.658px,350.787px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 129.66px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer013 {
+	-webkit-transform: translate(260.882px,138.509px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 91.02px;
+	left: -260.882px;
+	position: absolute;
+	top: -138.509px;
+	transform: translate(260.882px,138.509px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 183.16px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer014 {
+	-webkit-transform: translate(84.048px,25.157px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 3.76px;
+	left: -84.048px;
+	position: absolute;
+	top: -25.157px;
+	transform: translate(84.048px,25.157px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 2.89px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer015 {
+	-webkit-transform: translate(17.193px,18.665px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 2.40px;
+	left: -17.193px;
+	position: absolute;
+	top: -18.665px;
+	transform: translate(17.193px,18.665px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 3.22px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer016 {
+	-webkit-transform: translate(48.865px,19.093px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 5.61px;
+	left: -48.865px;
+	position: absolute;
+	top: -19.093px;
+	transform: translate(48.865px,19.093px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 2.46px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer017 {
+	-webkit-transform: translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 48.81px;
+	left: 0.000px;
+	position: absolute;
+	top: 0.000px;
+	transform: translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 99.21px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer018 {
+	-webkit-transform: translate(247.639px,600.944px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 48.81px;
+	left: -247.639px;
+	position: absolute;
+	top: -600.944px;
+	transform: translate(247.639px,600.944px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 99.21px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer019, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer020 {
+	-webkit-transform: translate(-59.528px,74.033px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 151.67px;
+	left: 59.528px;
+	position: absolute;
+	top: -74.033px;
+	transform: translate(-59.528px,74.033px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 337.03px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer021 {
+	-webkit-transform: translate(-14.174px,-13.174px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 707.66px;
+	left: 14.174px;
+	position: absolute;
+	top: 13.174px;
+	transform: translate(-14.174px,-13.174px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 609.87px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer022 {
+	-webkit-transform: translate(85.908px,465.429px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 68.38px;
+	left: -85.908px;
+	position: absolute;
+	top: -465.429px;
+	transform: translate(85.908px,465.429px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 309.64px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer023 {
+	-webkit-transform: translate(85.908px,536.959px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 25.08px;
+	left: -85.908px;
+	position: absolute;
+	top: -536.959px;
+	transform: translate(85.908px,536.959px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 130.71px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer024 {
+	-webkit-transform: translate(99.189px,280.674px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 111.67px;
+	left: -99.189px;
+	position: absolute;
+	top: -280.674px;
+	transform: translate(99.189px,280.674px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 285.02px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer025 {
+	-webkit-transform: translate(64.225px,8.191px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 8.55px;
+	left: -64.225px;
+	position: absolute;
+	top: -8.191px;
+	transform: translate(64.225px,8.191px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 3.76px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer026 {
+	-webkit-transform: translate(117.870px,17.436px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 5.73px;
+	left: -117.870px;
+	position: absolute;
+	top: -17.436px;
+	transform: translate(117.870px,17.436px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 4.41px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer027 {
+	-webkit-transform: translate(-0.001px,-0.001px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 32.58px;
+	left: 0.001px;
+	position: absolute;
+	top: 0.001px;
+	transform: translate(-0.001px,-0.001px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 130.71px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer028 {
+	-webkit-transform: translate(15.935px,7.539px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 3.66px;
+	left: -15.935px;
+	position: absolute;
+	top: -7.539px;
+	transform: translate(15.935px,7.539px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 4.91px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer029 {
+	-webkit-transform: translate(28.379px,4.272px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 23.90px;
+	left: -28.379px;
+	position: absolute;
+	top: -4.272px;
+	transform: translate(28.379px,4.272px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 28.51px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer030 {
+	-webkit-transform: translate(44.495px,11.227px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 16.92px;
+	left: -44.495px;
+	position: absolute;
+	top: -11.227px;
+	transform: translate(44.495px,11.227px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 12.67px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer031 {
+	-webkit-transform: translate(3.849px,4.295px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 23.96px;
+	left: -3.849px;
+	position: absolute;
+	top: -4.295px;
+	transform: translate(3.849px,4.295px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 21.39px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer032 {
+	-webkit-transform: translate(28.050px,16.136px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 11.77px;
+	left: -28.050px;
+	position: absolute;
+	top: -16.136px;
+	transform: translate(28.050px,16.136px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 5.09px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer033 {
+	-webkit-transform: translate(28.107px,10.383px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 3.61px;
+	left: -28.107px;
+	position: absolute;
+	top: -10.383px;
+	transform: translate(28.107px,10.383px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 4.97px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer034 {
+	-webkit-transform: translate(11.237px,3.848px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 16.95px;
+	left: -11.237px;
+	position: absolute;
+	top: -3.848px;
+	transform: translate(11.237px,3.848px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 14.27px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer035 {
+	-webkit-transform: translate(74.747px,10.401px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 16.94px;
+	left: -74.747px;
+	position: absolute;
+	top: -10.401px;
+	transform: translate(74.747px,10.401px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 5.09px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer036 {
+	-webkit-transform: translate(75.032px,4.500px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 4.00px;
+	left: -75.032px;
+	position: absolute;
+	top: -4.500px;
+	transform: translate(75.032px,4.500px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 4.59px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer037 {
+	-webkit-transform: translate(59.727px,4.272px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 23.07px;
+	left: -59.727px;
+	position: absolute;
+	top: -4.272px;
+	transform: translate(59.727px,4.272px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 13.06px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer038 {
+	-webkit-transform: translate(82.349px,4.605px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 23.56px;
+	left: -82.349px;
+	position: absolute;
+	top: -4.605px;
+	transform: translate(82.349px,4.605px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 13.40px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer039 {
+	-webkit-transform: translate(113.051px,4.753px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 23.97px;
+	left: -113.051px;
+	position: absolute;
+	top: -4.753px;
+	transform: translate(113.051px,4.753px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 13.81px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer040 {
+	-webkit-transform: translate(98.370px,4.471px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 23.44px;
+	left: -98.370px;
+	position: absolute;
+	top: -4.471px;
+	transform: translate(98.370px,4.471px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 13.10px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer041 {
+	-webkit-transform: translate(85.908px,568.199px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 32.58px;
+	left: -85.908px;
+	position: absolute;
+	top: -568.199px;
+	transform: translate(85.908px,568.199px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 130.71px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer042 {
+	-webkit-transform: translate(85.908px,215.264px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 25.08px;
+	left: -85.908px;
+	position: absolute;
+	top: -215.264px;
+	transform: translate(85.908px,215.264px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 285.02px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer043 {
+	-webkit-transform: translate(85.908px,405.990px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 46.76px;
+	left: -85.908px;
+	position: absolute;
+	top: -405.990px;
+	transform: translate(85.908px,405.990px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 346.27px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer044 {
+	-webkit-transform: translate(85.908px,61.061px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 140.35px;
+	left: -85.908px;
+	position: absolute;
+	top: -61.061px;
+	transform: translate(85.908px,61.061px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 323.86px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer045 {
+	-webkit-transform: translate(85.039px,127.169px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 1.00px;
+	left: -85.039px;
+	position: absolute;
+	top: -127.169px;
+	transform: translate(85.039px,127.169px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 310.51px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer046 {
+	-webkit-transform: translate(85.039px,80.650px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 1.00px;
+	left: -85.039px;
+	position: absolute;
+	top: -80.650px;
+	transform: translate(85.039px,80.650px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 310.51px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer047 {
+	-webkit-transform: translate(85.039px,208.890px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 1.00px;
+	left: -85.039px;
+	position: absolute;
+	top: -208.890px;
+	transform: translate(85.039px,208.890px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 310.51px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer048 {
+	-webkit-transform: translate(85.039px,272.351px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 128.97px;
+	left: -85.039px;
+	position: absolute;
+	top: -272.351px;
+	transform: translate(85.039px,272.351px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 310.51px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer049 {
+	-webkit-transform: translate(328.370px,589.963px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 62.85px;
+	left: -328.370px;
+	position: absolute;
+	top: -589.963px;
+	transform: translate(328.370px,589.963px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 115.94px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer050 {
+	-webkit-transform: translate(461.059px,577.093px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 68.83px;
+	left: -461.059px;
+	position: absolute;
+	top: -577.093px;
+	transform: translate(461.059px,577.093px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 68.83px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer051 {
+	-webkit-transform: translate(451.927px,565.657px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 139.26px;
+	left: -451.927px;
+	position: absolute;
+	top: -565.657px;
+	transform: translate(451.927px,565.657px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 87.09px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer052 {
+	-webkit-transform: translate(330.105px,582.966px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 1.00px;
+	left: -330.105px;
+	position: absolute;
+	top: -582.966px;
+	transform: translate(330.105px,582.966px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 122.20px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer053 {
+	-webkit-transform: translate(86.879px,245.439px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 23.79px;
+	left: -86.879px;
+	position: absolute;
+	top: -245.439px;
+	transform: translate(86.879px,245.439px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 309.64px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer054 {
+	-webkit-transform: translate(366.236px,535.970px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 21.77px;
+	left: -366.236px;
+	position: absolute;
+	top: -535.970px;
+	transform: translate(366.236px,535.970px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 126.02px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer055 {
+	-webkit-transform: translate(222.236px,270.797px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 267.79px;
+	left: -222.236px;
+	position: absolute;
+	top: -270.797px;
+	transform: translate(222.236px,270.797px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 315.20px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer056, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer062, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer067, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer075, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer083, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer094, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer100, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer105, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer114, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer119, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer125, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer131 {
+	-webkit-transform: translate(-14.174px,-14.174px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 708.66px;
+	left: 14.174px;
+	position: absolute;
+	top: 14.174px;
+	transform: translate(-14.174px,-14.174px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 1218.90px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer057 {
+	-webkit-transform: translate(111.968px,69.423px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 57.15px;
+	left: -111.968px;
+	position: absolute;
+	top: -69.423px;
+	transform: translate(111.968px,69.423px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 49.03px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer058 {
+	-webkit-transform: translate(111.968px,69.465px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 464.45px;
+	left: -111.968px;
+	position: absolute;
+	top: -69.465px;
+	transform: translate(111.968px,69.465px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 286.30px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer059, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer063, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer069, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer078, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer087, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer088, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer097, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer102, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer110, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer116, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer123, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer127, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer135 {
+	-webkit-transform: translate(0.000px,624.823px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 56.49px;
+	left: 0.000px;
+	position: absolute;
+	top: -624.823px;
+	transform: translate(0.000px,624.823px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 70.87px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer060, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer064, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer071, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer079, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer089, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer098, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer103, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer111, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer117, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer124, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer128, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer136 {
+	-webkit-transform: translate(-609.449px,-14.174px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 708.66px;
+	left: 609.449px;
+	position: absolute;
+	top: 14.174px;
+	transform: translate(-609.449px,-14.174px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 1218.90px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer061, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer074, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer082, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer092, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer099, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer104, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer113, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer118, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer130, .SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer138 {
+	-webkit-transform: translate(481.889px,667.343px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 56.49px;
+	left: -481.889px;
+	position: absolute;
+	top: -667.343px;
+	transform: translate(481.889px,667.343px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 70.87px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer065 {
+	-webkit-transform: translate(83.622px,83.370px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 276.21px;
+	left: -83.622px;
+	position: absolute;
+	top: -83.370px;
+	transform: translate(83.622px,83.370px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 299.06px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer066 {
+	-webkit-transform: translate(248.149px,87.874px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 148.82px;
+	left: -248.149px;
+	position: absolute;
+	top: -87.874px;
+	transform: translate(248.149px,87.874px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 155.20px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer068 {
+	-webkit-transform: translate(111.968px,79.344px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 57.15px;
+	left: -111.968px;
+	position: absolute;
+	top: -79.344px;
+	transform: translate(111.968px,79.344px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 49.03px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer070 {
+	-webkit-transform: translate(111.968px,79.387px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 276.79px;
+	left: -111.968px;
+	position: absolute;
+	top: -79.387px;
+	transform: translate(111.968px,79.387px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 286.30px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer072 {
+	-webkit-transform: translate(111.968px,91.874px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 229.44px;
+	left: -111.968px;
+	position: absolute;
+	top: -91.874px;
+	transform: translate(111.968px,91.874px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 325.98px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer073 {
+	-webkit-transform: translate(247.748px,64.944px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 198.83px;
+	left: -247.748px;
+	position: absolute;
+	top: -64.944px;
+	transform: translate(247.748px,64.944px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 296.50px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer076 {
+	-webkit-transform: translate(92.125px,55.983px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 57.15px;
+	left: -92.125px;
+	position: absolute;
+	top: -55.983px;
+	transform: translate(92.125px,55.983px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 49.03px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer077 {
+	-webkit-transform: translate(92.125px,56.709px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 244.76px;
+	left: -92.125px;
+	position: absolute;
+	top: -56.709px;
+	transform: translate(92.125px,56.709px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 324.98px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer080 {
+	-webkit-transform: translate(145.984px,73.448px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 345.66px;
+	left: -145.984px;
+	position: absolute;
+	top: -73.448px;
+	transform: translate(145.984px,73.448px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 374.17px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer081 {
+	-webkit-transform: translate(59.527px,192.755px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 250.87px;
+	left: -59.527px;
+	position: absolute;
+	top: -192.755px;
+	transform: translate(59.527px,192.755px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 259.37px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer084 {
+	-webkit-transform: translate(305.925px,261.247px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 79.31px;
+	left: -305.925px;
+	position: absolute;
+	top: -261.247px;
+	transform: translate(305.925px,261.247px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 68.35px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer085 {
+	-webkit-transform: translate(111.968px,53.881px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 57.15px;
+	left: -111.968px;
+	position: absolute;
+	top: -53.881px;
+	transform: translate(111.968px,53.881px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 49.03px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer086 {
+	-webkit-transform: translate(111.968px,53.875px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 227.75px;
+	left: -111.968px;
+	position: absolute;
+	top: -53.875px;
+	transform: translate(111.968px,53.875px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 348.66px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer090 {
+	-webkit-transform: translate(174.330px,393.763px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 287.55px;
+	left: -174.330px;
+	position: absolute;
+	top: -393.763px;
+	transform: translate(174.330px,393.763px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 313.94px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer091 {
+	-webkit-transform: translate(73.896px,583.321px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 145.08px;
+	left: -73.896px;
+	position: absolute;
+	top: -583.321px;
+	transform: translate(73.896px,583.321px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 98.08px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer093 {
+	-webkit-transform: translate(524.409px,624.823px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 56.49px;
+	left: -524.409px;
+	position: absolute;
+	top: -624.823px;
+	transform: translate(524.409px,624.823px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 70.87px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer095 {
+	-webkit-transform: translate(114.803px,84.787px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 186.92px;
+	left: -114.803px;
+	position: absolute;
+	top: -84.787px;
+	transform: translate(114.803px,84.787px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 333.07px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer096 {
+	-webkit-transform: translate(114.803px,18.442px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 267.44px;
+	left: -114.803px;
+	position: absolute;
+	top: -18.442px;
+	transform: translate(114.803px,18.442px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 321.73px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer101 {
+	-webkit-transform: translate(96.377px,70.614px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 215.27px;
+	left: -96.377px;
+	position: absolute;
+	top: -70.614px;
+	transform: translate(96.377px,70.614px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 341.57px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer106 {
+	-webkit-transform: translate(58.606px,82.204px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 323.15px;
+	left: -58.606px;
+	position: absolute;
+	top: -82.204px;
+	transform: translate(58.606px,82.204px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 254.41px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer107 {
+	-webkit-transform: translate(221.102px,524.157px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 111.80px;
+	left: -221.102px;
+	position: absolute;
+	top: -524.157px;
+	transform: translate(221.102px,524.157px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 254.41px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer108 {
+	-webkit-transform: translate(221.080px,86.893px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 56.54px;
+	left: -221.080px;
+	position: absolute;
+	top: -86.893px;
+	transform: translate(221.080px,86.893px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 48.49px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer109 {
+	-webkit-transform: translate(61.614px,86.473px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 247.60px;
+	left: -61.614px;
+	position: absolute;
+	top: -86.473px;
+	transform: translate(61.614px,86.473px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 547.09px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer112 {
+	-webkit-transform: translate(-533.662px,86.473px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 247.60px;
+	left: 533.662px;
+	position: absolute;
+	top: -86.473px;
+	transform: translate(-533.662px,86.473px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 547.09px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer115 {
+	-webkit-transform: translate(107.716px,91.874px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 215.27px;
+	left: -107.716px;
+	position: absolute;
+	top: -91.874px;
+	transform: translate(107.716px,91.874px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 283.46px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer120 {
+	-webkit-transform: translate(90.708px,177.098px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 250.93px;
+	left: -90.708px;
+	position: absolute;
+	top: -177.098px;
+	transform: translate(90.708px,177.098px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 307.84px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer121 {
+	-webkit-transform: translate(114.803px,40.510px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 57.15px;
+	left: -114.803px;
+	position: absolute;
+	top: -40.510px;
+	transform: translate(114.803px,40.510px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 49.03px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer122 {
+	-webkit-transform: translate(114.803px,40.633px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 331.71px;
+	left: -114.803px;
+	position: absolute;
+	top: -40.633px;
+	transform: translate(114.803px,40.633px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 401.10px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer126 {
+	-webkit-transform: translate(136.062px,190.849px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 173.40px;
+	left: -136.062px;
+	position: absolute;
+	top: -190.849px;
+	transform: translate(136.062px,190.849px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 282.05px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer129 {
+	-webkit-transform: translate(106.299px,97.543px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 286.13px;
+	left: -106.299px;
+	position: absolute;
+	top: -97.543px;
+	transform: translate(106.299px,97.543px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 333.07px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer132 {
+	-webkit-transform: translate(559.088px,603.235px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 81.12px;
+	left: -559.088px;
+	position: absolute;
+	top: -603.235px;
+	transform: translate(559.088px,603.235px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 102.56px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer133 {
+	-webkit-transform: translate(69.448px,52.281px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 57.15px;
+	left: -69.448px;
+	position: absolute;
+	top: -52.281px;
+	transform: translate(69.448px,52.281px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 49.03px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer134 {
+	-webkit-transform: translate(69.448px,51.971px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 321.45px;
+	left: -69.448px;
+	position: absolute;
+	top: -51.971px;
+	transform: translate(69.448px,51.971px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 328.82px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer137 {
+	-webkit-transform: translate(-36.188px,603.235px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 81.12px;
+	left: 36.188px;
+	position: absolute;
+	top: -603.235px;
+	transform: translate(-36.188px,603.235px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 102.56px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer139 {
+	-webkit-transform: translate(-14.174px,-14.674px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 709.66px;
+	left: 14.174px;
+	position: absolute;
+	top: 14.674px;
+	transform: translate(-14.174px,-14.674px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 609.87px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer140 {
+	-webkit-transform: translate(141.023px,48.114px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 538.24px;
+	left: -141.023px;
+	position: absolute;
+	top: -48.114px;
+	transform: translate(141.023px,48.114px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 309.69px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer141 {
+	-webkit-transform: translate(0.000px,-0.001px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 56.69px;
+	left: 0.000px;
+	position: absolute;
+	top: 0.001px;
+	transform: translate(0.000px,-0.001px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 66.61px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer142 {
+	-webkit-transform: translate(0.000px,53.007px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 12.47px;
+	left: 0.000px;
+	position: absolute;
+	top: -53.007px;
+	transform: translate(0.000px,53.007px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 57.29px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer143 {
+	-webkit-transform: translate(55.275px,372.088px) rotate(356.750deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 389.03px;
+	left: -55.275px;
+	position: absolute;
+	top: -372.088px;
+	transform: translate(55.275px,372.088px) rotate(356.750deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 512.77px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer144 {
+	-webkit-transform: translate(111.968px,91.874px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 468.97px;
+	left: -111.968px;
+	position: absolute;
+	top: -91.874px;
+	transform: translate(111.968px,91.874px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 426.61px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer145 {
+	-webkit-transform: translate(538.582px,617.952px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 42.52px;
+	left: -538.582px;
+	position: absolute;
+	top: -617.952px;
+	transform: translate(538.582px,617.952px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 42.52px
+}
+.SCIdFxlObj.SCIdFxlObj3_MIOLOUMAHISTORIAPARAANA._idContainer146 {
+	-webkit-transform: translate(-0.418px,-13.174px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin: 0% 0%;
+	height: 707.66px;
+	left: 0.418px;
+	position: absolute;
+	top: 13.174px;
+	transform: translate(-0.418px,-13.174px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin: 0% 0%;
+	width: 609.87px
+}
+img._idGenObjectAttribute-1 {
+	height:100.00%;
+	min-width:100%;
+	width:100.00%;
+}
+img._idGenObjectAttribute-2 {
+	left:0px;
+	position:absolute;
+	top:0px;
+}
+div._idGenObjectStyle-Disabled {
+	background-color:transparent;
+	border-width:0px;
+}
+
+.SCPage {
+background-color: #FFFFFF
+}
