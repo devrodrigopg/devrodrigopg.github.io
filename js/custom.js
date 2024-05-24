@@ -1,3 +1,24 @@
+var showConsoleLibName = false;
+
+window.addEventListener("load", function (event) {
+  initScripts();
+});
+
+function initScripts() {
+  console.log("----> init Custom Scripts <----");
+
+  showConsoleLibName = false;
+  $("#favoriteBtn").click(function (e) {
+    e.preventDefault();
+    alert("favorito");
+  });
+
+  $("#closeBtn").click(function (e) {
+    e.preventDefault();
+    alert("close");
+  });
+}
+
 function startEPUB(path) {
   $("#splashScreen").show();
   if (xreader.callAppMethod && path) {
@@ -14,8 +35,10 @@ function startEPUB(path) {
     document.head.appendChild(renditionsDesktop);
 
     setTimeout(() => {
-      $("#splashScreen").hide();
       xreader.callAppMethod("Inited", null, path);
+      $("#favoriteBtn").css("display", "block");
+      $("#closeBtn").css("display", "block");
+      $("#splashScreen").hide();
     }, 2000);
   }
 }

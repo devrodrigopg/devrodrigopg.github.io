@@ -1,7 +1,1 @@
-PubViewer.Document.Renditions.Desktop = {
-  formats: [{ id: 1, label: "926 x 521", screenHeight: 521, screenWidth: 926 }],
-  localizations: [
-    { default: true, id: 1, label: "Portuguese", languageCode: "pt" },
-  ],
-  orientations: [{ id: 1, label: "Landscape", orientation: "landscape" }],
-};
+PubViewer.Document.Renditions.Desktop = {"formats":[{"id":1,"label":"926 x 521","screenHeight":521,"screenWidth":926}],"localizations":[{"default":true,"id":1,"label":"Portuguese","languageCode":"pt"}],"orientations":[{"id":1,"label":"Landscape","orientation":"landscape"}]};

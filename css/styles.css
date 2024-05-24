@@ -36,6 +36,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   z-index: 4;
+  background-color: #fff;
 }
 
 .ReaderPage {
@@ -164,7 +165,7 @@ body {
   height: 100%;
   box-sizing: content-box;
   margin-inline: 10px;
-  width: 50px;
+  width: 40px;
 }
 
 #navigation .icon {
@@ -176,33 +177,33 @@ body {
 }
 
 #navigation .navLeftArrow .icon {
-  background-image: url("../images/nav-left-btn.png");
-}
-
-#navigation .navLeftArrow:hover .icon {
-  background-image: url("../images/nav-left-btn-hover.png");
+  background-image: url("../images/buttonNavigation/left.png");
+  filter: drop-shadow(0px 0px 4px #ddd);
 }
 
 #navigation .navLeftArrow:active .icon {
-  background-image: url("../images/nav-left-btn-active.png");
+  filter: drop-shadow(0px 0px 4px #aaa);
+  opacity: 0.8;
+}
+
+#navigation .navLeftArrow:hover .icon {
+  filter: drop-shadow(0px 0px 4px #aaa);
+  opacity: 0.8;
 }
 
 #navigation .navRightArrow .icon {
-  background-image: url("../images/nav-right-btn.png");
+  background-image: url("../images/buttonNavigation/right.png");
+  filter: drop-shadow(0px 0px 4px #ddd);
 }
 
 #navigation .navRightArrow:hover .icon {
-  background-image: url("../images/nav-right-btn-hover.png");
+  filter: drop-shadow(0px 0px 4px #aaa);
+  opacity: 0.8;
 }
 
 #navigation .navRightArrow:active .icon {
-  background-image: url("../images/nav-right-btn-active.png");
-}
-
-@media only screen and (max-width: 767px) {
-  #navigation .navArrow {
-    width: 50px;
-  }
+  filter: drop-shadow(0px 0px 4px #aaa);
+  opacity: 0.8;
 }
 
 #xreaderUI {
@@ -253,45 +254,6 @@ body {
 
 .xr-btn:hover {
   background-color: rgba(0, 0, 0, 0.05);
-}
-
-#tocBtn {
-  background-image: url("../images/xr_List.png");
-}
-#audioControlsBtn {
-  background-image: url("../images/xr_Volume_2.png");
-}
-#searchControlsBtn {
-  background-image: url("../images/xr_Search.png");
-}
-#languageBtn {
-  background-image: url("../images/xr_Flag.png");
-}
-#annotationBtn {
-  background-image: url("../images/xr_Annotate.png");
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio: 2),
-  only screen and (min--moz-device-pixel-ratio: 2),
-  only screen and (-o-min-device-pixel-ratio: 2/1),
-  only screen and (min-device-pixel-ratio: 2),
-  only screen and (min-resolution: 192dpi),
-  only screen and (min-resolution: 2dppx) {
-  #tocBtn {
-    background-image: url("../images/xr_List@2x.png");
-  }
-  #audioControlsBtn {
-    background-image: url("../images/xr_Volume_2@2x.png");
-  }
-  #searchControlsBtn {
-    background-image: url("../images/xr_Search@2x.png");
-  }
-  #languageBtn {
-    background-image: url("../images/xr_Flag@2x.png");
-  }
-  #annotationBtn {
-    background-image: url("../images/xr_Annotate@2x.png");
-  }
 }
 
 .xr-controls {
@@ -582,6 +544,55 @@ body.use-safe-area .xr-controls {
   position: absolute;
   z-index: 1000;
   bottom: 0;
-  right: 30px;
+  right: 10px;
   height: 70px;
+}
+
+#navigation #navigationTop {
+  display: flex;
+  position: absolute;
+  z-index: 1000;
+  top: 0;
+  height: 70px;
+  width: 100%;
+  justify-content: space-between;
+  padding-inline: 10px;
+}
+
+#navigation .navButton {
+  pointer-events: auto;
+  height: 100%;
+  box-sizing: content-box;
+  margin-inline: 10px;
+  width: 40px;
+}
+
+#navigation .navFavorite .icon {
+  background-image: url("../images/buttonNavigation/favorite.png");
+  filter: drop-shadow(0px 0px 4px #ddd);
+}
+
+#navigation .navFavorite:hover .icon {
+  filter: drop-shadow(0px 0px 4px #ddd);
+  opacity: 0.8;
+}
+
+#navigation .navFavorite:active .icon {
+  filter: drop-shadow(0px 0px 4px #ddd);
+  opacity: 0.8;
+}
+
+#navigation .navClose .icon {
+  background-image: url("../images/buttonNavigation/close.png");
+  filter: drop-shadow(0px 0px 4px #ddd);
+}
+
+#navigation .navClose:hover .icon {
+  filter: drop-shadow(0px 0px 4px #ddd);
+  opacity: 0.8;
+}
+
+#navigation .navClose:active .icon {
+  filter: drop-shadow(0px 0px 4px #ddd);
+  opacity: 0.8;
 }

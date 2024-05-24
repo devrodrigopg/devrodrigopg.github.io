@@ -20,18 +20,20 @@ var app = {
       xreader.Environment.Platform = xreader.Platform.Web;
       // xreader.Version.Idiom = ?;
 
-      console.log(
-        `%c
- _    _  ______                     _                     _       
-\\ \\  / /(_____ \\                   | |                   (_)      
- \\ \\/ /  _____) )  ____   ____   _ | |  ____   ____       _   ___ 
-  )  (  (_____ (  / _  ) / _  | / || | / _  ) / ___)     | | /___)
- / /\\ \\       | |( (/ / ( ( | |( (_| |( (/ / | |     _   | ||___ |
-/_/  \\_\\      |_| \\____) \\_||_| \\____| \\____)|_|    (_) _| |(___/ 
-                                                       (__/       
-XReader.js Version ${xreader.Environment.AppVersion}`,
-        "font-family: monospace; color: #fc546f;"
-      );
+      if (showConsoleLibName) {
+        console.log(
+          `%c
+   _    _  ______                     _                     _       
+  \\ \\  / /(_____ \\                   | |                   (_)      
+   \\ \\/ /  _____) )  ____   ____   _ | |  ____   ____       _   ___ 
+    )  (  (_____ (  / _  ) / _  | / || | / _  ) / ___)     | | /___)
+   / /\\ \\       | |( (/ / ( ( | |( (_| |( (/ / | |     _   | ||___ |
+  /_/  \\_\\      |_| \\____) \\_||_| \\____| \\____)|_|    (_) _| |(___/ 
+                                                         (__/       
+  XReader.js Version ${xreader.Environment.AppVersion}`,
+          "font-family: monospace; color: #fc546f;"
+        );
+      }
 
       // setting up XReaderJS basic settings
       app.readerViewWidth = window.innerWidth;
