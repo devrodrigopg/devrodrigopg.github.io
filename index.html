@@ -1,25 +1,58 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
   <head>
-    <title>Leiturinha Leitor</title>
     <meta charset="utf-8" />
+    <title>Uma hist&oacute;ria para Ana</title>
+
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, minimum-scale=1, viewport-fit=cover"
     />
+
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.transit.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/blazy.min.js"></script>
-    <script src="js/underscore-min.js"></script>
     <script src="js/core.js"></script>
-    <script src="js/custom.js"></script>
+
+    <script src="js/underscore-min.js"></script>
+    <script src="js/blazy.min.js"></script>
+    <script>
+      var withPath = true;
+
+      let params = new URL(document.location).searchParams;
+      var epubPath = params.get("epub"); // is the string "Jonathan Smith".
+
+      const renditionsMobile = document.createElement("script");
+      const renditionsDesktop = document.createElement("script");
+      const settings = document.createElement("script");
+
+      renditionsMobile.src = epubPath + "/renditions-mobile.js";
+      renditionsDesktop.src = epubPath + "/renditions-desktop.js";
+      settings.src = epubPath + "/settings.js";
+
+      document.head.appendChild(settings);
+      document.head.appendChild(renditionsMobile);
+      document.head.appendChild(renditionsDesktop);
+    </script>
+
     <script src="js/app.js"></script>
 
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/custom.css" />
     <link rel="icon" type="image/png" href="images/favicon.png" />
+
+    <script src="js/custom.js"></script>
   </head>
 
   <body>
@@ -73,47 +106,24 @@
     </div>
 
     <div id="overlay"></div>
-
     <nav id="navigation" aria-label="Navigation Arrows">
-      <div id="navigationTop">
-        <div
-          id="favoriteBtn"
-          class="navButton navFavorite"
-          style="display: none"
-          role="button"
-          aria-label="Favoritar/Desfavoritar"
-        >
-          <div class="icon"></div>
-        </div>
-        <div
-          id="closeBtn"
-          class="navButton navClose"
-          style="display: none"
-          role="button"
-          aria-label="Fechar"
-        >
-          <div class="icon"></div>
-        </div>
+      <div
+        id="previousPageBtn"
+        class="navArrow"
+        style="display: none"
+        role="button"
+        aria-label="Previous Page"
+      >
+        <div class="icon"></div>
       </div>
-      <div id="navigationBottom">
-        <div
-          id="previousPageBtn"
-          class="navArrow"
-          style="display: none"
-          role="button"
-          aria-label="Voltar"
-        >
-          <div class="icon"></div>
-        </div>
-        <div
-          id="nextPageBtn"
-          class="navArrow"
-          style="display: none"
-          role="button"
-          aria-label="Próximo"
-        >
-          <div class="icon"></div>
-        </div>
+      <div
+        id="nextPageBtn"
+        class="navArrow"
+        style="display: none"
+        role="button"
+        aria-label="Next Page"
+      >
+        <div class="icon"></div>
       </div>
     </nav>
 
@@ -126,7 +136,45 @@
           loop
         ></audio>
         <audio id="readaloudAudioPlayer" style="display: none" controls></audio>
+        <div class="xr-controls">
+          <div
+            id="tocBtn"
+            class="xr-btn"
+            role="button"
+            data-toggle="modal"
+            data-target="#tocModal"
+          ></div>
+          <div
+            id="audioControlsBtn"
+            class="xr-btn"
+            role="button"
+            data-toggle="modal"
+            data-target="#audioControlsModal"
+          ></div>
+
+          <div
+            id="searchControlsBtn"
+            class="xr-btn"
+            role="button"
+            data-toggle="modal"
+            data-target="#searchControlsModal"
+          ></div>
+
+          <div
+            id="languageBtn"
+            class="xr-btn"
+            role="button"
+            data-toggle="modal"
+            data-target="#languageControlsModal"
+          ></div>
+          <!-- <div id="annotationBtn" class="xr-btn" role="button"></div> -->
+        </div>
       </div>
+      <nav
+        id="xreaderBottomMenuView"
+        class="pagesThumbnailsContainer"
+        aria-label="Pages List"
+      ></nav>
     </div>
 
     <!-- TOC -->
@@ -156,6 +204,41 @@
           </div>
           <div class="modal-body">
             <div id="chapterSelector" class="list-group list-group-flush"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Language Controls -->
+    <div
+      class="modal fade"
+      id="languageControlsModal"
+      tabindex="-1"
+      role="dialog"
+      aria-label="Language"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+        role="document"
+      >
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Language</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div
+              id="languageSelector"
+              class="list-group list-group-flush"
+            ></div>
           </div>
         </div>
       </div>
@@ -194,6 +277,16 @@
                   <div class="row row-cols-12">
                     <div class="col">
                       <div class="audio-slider">
+                        <img
+                          alt=""
+                          width="22"
+                          height="22"
+                          srcset="
+                            images/xr_Volume.png    1x,
+                            images/xr_Volume@2x.png 2x
+                          "
+                          src="images/xr_Volume.png"
+                        />
                         <input
                           type="range"
                           class="custom-range"
@@ -202,6 +295,16 @@
                           min="0"
                           max="100"
                           value="100"
+                        />
+                        <img
+                          alt=""
+                          width="22"
+                          height="22"
+                          srcset="
+                            images/xr_Volume_2.png    1x,
+                            images/xr_Volume_2@2x.png 2x
+                          "
+                          src="images/xr_Volume_2.png"
                         />
                       </div>
                     </div>
@@ -248,6 +351,16 @@
                   <div class="row row-cols-12">
                     <div class="col">
                       <div class="audio-slider">
+                        <img
+                          alt=""
+                          width="22"
+                          height="22"
+                          srcset="
+                            images/xr_Volume.png    1x,
+                            images/xr_Volume@2x.png 2x
+                          "
+                          src="images/xr_Volume.png"
+                        />
                         <input
                           type="range"
                           class="custom-range"
@@ -256,6 +369,16 @@
                           min="0"
                           max="100"
                           value="100"
+                        />
+                        <img
+                          alt=""
+                          width="22"
+                          height="22"
+                          srcset="
+                            images/xr_Volume_2.png    1x,
+                            images/xr_Volume_2@2x.png 2x
+                          "
+                          src="images/xr_Volume_2.png"
                         />
                       </div>
                     </div>
@@ -302,7 +425,16 @@
               <div class="form-group">
                 <div class="input-group mb-2">
                   <div class="input-group-prepend">
-                    <div class="input-group-text"></div>
+                    <div class="input-group-text">
+                      <img
+                        alt=""
+                        srcset="
+                          images/xr_Search.png    1x,
+                          images/xr_Search@2x.png 2x
+                        "
+                        src="images/xr_Search.png"
+                      />
+                    </div>
                   </div>
                   <input
                     type="text"
@@ -314,7 +446,16 @@
                     autocomplete="off"
                   />
                   <div class="input-group-append">
-                    <div class="input-group-text"></div>
+                    <div class="input-group-text">
+                      <img
+                        class="btn m-0 p-0"
+                        srcset="images/xr_X.png 1x, images/xr_X@2x.png 2x"
+                        src="images/xr_X.png"
+                        role="button"
+                        alt="Clear Search"
+                        onclick="app.clearSearch()"
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
@@ -324,19 +465,6 @@
           </div>
         </div>
       </div>
-    </div>
-
-    <div id="playScreen" style="display: none">
-      <img src="images/reader_play.svg" alt="Start" width="150" height="150" />
-    </div>
-
-    <div id="splashScreen">
-      <img
-        src="images/LeiturinhabyPlayKids.png"
-        alt="Start"
-        width="200"
-        height="70"
-      />
     </div>
 
     <script type="text/javascript">

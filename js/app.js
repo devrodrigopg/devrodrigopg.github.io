@@ -2,16 +2,11 @@
  * XReader.JS
  * @author Angelo Scicolone <angelo.scicolone@pubcoder.com>
  * @copyright Copyright 2024 PubCoder srl. All rights reserved.
- *
- *
- * Modified by RodrigoPG by Leiturinha
  */
 
 var app = {
   xreaderCalls: {
-    Inited: function (params, path) {
-      if (!path) return;
-
+    Inited: function (params) {
       if (document.location.protocol == "file:") return;
 
       // setting xreader environment variables
@@ -20,24 +15,22 @@ var app = {
       xreader.Environment.Platform = xreader.Platform.Web;
       // xreader.Version.Idiom = ?;
 
-      if (showConsoleLibName) {
-        console.log(
-          `%c
-   _    _  ______                     _                     _       
-  \\ \\  / /(_____ \\                   | |                   (_)      
-   \\ \\/ /  _____) )  ____   ____   _ | |  ____   ____       _   ___ 
-    )  (  (_____ (  / _  ) / _  | / || | / _  ) / ___)     | | /___)
-   / /\\ \\       | |( (/ / ( ( | |( (_| |( (/ / | |     _   | ||___ |
-  /_/  \\_\\      |_| \\____) \\_||_| \\____| \\____)|_|    (_) _| |(___/ 
-                                                         (__/       
-  XReader.js Version ${xreader.Environment.AppVersion}`,
-          "font-family: monospace; color: #fc546f;"
-        );
-      }
+      console.log(
+        `%c
+ _    _  ______                     _                     _       
+\\ \\  / /(_____ \\                   | |                   (_)      
+ \\ \\/ /  _____) )  ____   ____   _ | |  ____   ____       _   ___ 
+  )  (  (_____ (  / _  ) / _  | / || | / _  ) / ___)     | | /___)
+ / /\\ \\       | |( (/ / ( ( | |( (_| |( (/ / | |     _   | ||___ |
+/_/  \\_\\      |_| \\____) \\_||_| \\____| \\____)|_|    (_) _| |(___/ 
+                                                       (__/       
+XReader.js Version ${xreader.Environment.AppVersion}`,
+        "font-family: monospace; color: #fc546f;"
+      );
 
       // setting up XReaderJS basic settings
-      app.readerViewWidth = window.innerWidth;
-      app.readerViewHeight = window.innerHeight;
+      app.readerViewWidth = params[0];
+      app.readerViewHeight = params[1];
       app.identifier = xreader.Document.Settings.appIdentifier;
 
       // init renditions
@@ -145,7 +138,6 @@ var app = {
 
       // load renditions list
       app.renditions.list = [];
-
       _(renditions.formats).each(function (format) {
         _(renditions.orientations).each(function (orientation) {
           _(renditions.localizations).each(function (localization) {
@@ -162,22 +154,18 @@ var app = {
               languageCode: localization.languageCode,
               isPreferred: localization.default == true,
             };
+            r.baseUrl =
+              document.location.href.split("/").slice(0, -1).join("/") +
+              "/Payload/" +
+              [format.id, orientation.id, localization.id].join(".") +
+              "/";
 
-            if (path) {
-              r.baseUrl =
-                path +
-                "/" +
-                [format.id, orientation.id, localization.id].join(".") +
-                "/";
-
-              console.log(r.baseUrl);
-            } else {
-              r.baseUrl =
-                document.location.href.split("/").slice(0, -1).join("/") +
-                "/Payload/" +
-                [format.id, orientation.id, localization.id].join(".") +
-                "/";
-            }
+            let newbaseUrl =
+              epubPath +
+              "/" +
+              [format.id, orientation.id, localization.id].join(".") +
+              "/";
+            r.baseUrl = newbaseUrl;
 
             r.contentsUrl = r.baseUrl + "OEBPS/";
             r.aspectRatio = r.width / r.height;
@@ -185,8 +173,6 @@ var app = {
           });
         });
       });
-
-      //startFile(renditions, app);
 
       // plug-in XReader.JS extensions into XReader.Core
 
@@ -1763,6 +1749,7 @@ var jsBridge = {
       return;
     }
 
+    // console.log(data);
     var methodCall = JSON.parse(data);
     if (isFunction(app.xreaderCalls[methodCall.method])) {
       app.xreaderCalls[methodCall.method](

@@ -411,8 +411,7 @@ var xreader = window.PubViewer || {
 
     // xreader.adjustInterface();
 
-    //TODO - modificado pelo RODRIGO
-    //xreader.callAppMethod("Inited", [window.innerWidth, window.innerHeight]);
+    xreader.callAppMethod("Inited", [window.innerWidth, window.innerHeight]);
 
     $(window).resize(function () {
       xreader._lastKnownWindowInnerWidth = window.innerWidth;
