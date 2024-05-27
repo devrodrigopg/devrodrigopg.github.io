@@ -185,7 +185,7 @@
       >
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Table of Contents</h5>
+            <h5 class="modal-title">Sumário</h5>
             <button
               type="button"
               class="close"
@@ -217,7 +217,7 @@
       >
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Language</h5>
+            <h5 class="modal-title">Idioma</h5>
             <button
               type="button"
               class="close"
@@ -264,7 +264,7 @@
           </div>
           <div class="modal-body">
             <div id="readaloudSettingsContainer" class="container">
-              <h6>Read Aloud</h6>
+              <h6>Narração</h6>
               <div class="row row-cols-12 xr-group">
                 <div class="col">
                   <div class="row row-cols-12">
@@ -315,7 +315,7 @@
                         <label
                           class="custom-control-label"
                           for="readaloudTurnPagesCheckbox"
-                          >Turn Pages Automatically</label
+                          >Mudar páginas automaticamente</label
                         >
                       </div>
                     </div>
@@ -329,7 +329,7 @@
                         class="btn btn-block btn-primary xr-control"
                         onclick="app.toggleReadaloud();"
                       >
-                        Start Read Aloud
+                        Começar leitura
                       </button>
                     </div>
                   </div>
@@ -434,7 +434,7 @@
                     class="form-control"
                     id="searchField"
                     aria-label="Search Field"
-                    placeholder="Search"
+                    placeholder="Procurar"
                     oninput="app.searchInProject()"
                     autocomplete="off"
                   />
@@ -458,6 +458,19 @@
           </div>
         </div>
       </div>
+    </div>
+
+    <div id="playScreen" style="display: none">
+      <img src="images/reader_play.svg" alt="Start" width="150" height="150" />
+    </div>
+
+    <div id="splashScreen">
+      <img
+        src="images/LeiturinhabyPlayKids.png"
+        alt="Start"
+        width="200"
+        height="70"
+      />
     </div>
 
     <script type="text/javascript">

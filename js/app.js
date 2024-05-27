@@ -247,20 +247,23 @@ XReader.js Version ${xreader.Environment.AppVersion}`,
       setTimeout(function () {
         app.inited = true;
         app.updateReader(true);
+        epubStarted && epubStarted();
       }, 1);
     },
 
     ToggleMenu: function () {
-      if ($("#xreaderUI").css("display") != "none") {
-        $("#xreaderUI").hide();
-      } else if (xreader.ReaderSettings.EnableTouchToOpenAppMenu) {
-        $("#xreaderUI").show();
-        setTimeout(function () {
-          app.scrollPageSwitcherToActivePage(false);
-          var bLazy = new Blazy({
-            container: ".pagesThumbnailsContainer",
-          });
-        }, 100);
+      if (showNativeMenu) {
+        if ($("#xreaderUI").css("display") != "none") {
+          $("#xreaderUI").hide();
+        } else if (xreader.ReaderSettings.EnableTouchToOpenAppMenu) {
+          $("#xreaderUI").show();
+          setTimeout(function () {
+            app.scrollPageSwitcherToActivePage(false);
+            var bLazy = new Blazy({
+              container: ".pagesThumbnailsContainer",
+            });
+          }, 100);
+        }
       }
     },
 
@@ -287,7 +290,6 @@ XReader.js Version ${xreader.Environment.AppVersion}`,
     },
 
     "XPUB.Ready": function (params) {
-      console.log("----> Ready");
       var pageUrl = params[0];
       // console.warn("XPUB.Ready", pageUrl, app.currentPage.url);
       if (
@@ -343,7 +345,6 @@ XReader.js Version ${xreader.Environment.AppVersion}`,
           container: ".pagesThumbnailsContainer",
         });
       }, 100);
-      console.log("----> XPUB.OpenMenu");
     },
 
     "XPUB.PlayAudio": function (params) {
@@ -431,10 +432,8 @@ XReader.js Version ${xreader.Environment.AppVersion}`,
         });
         app.startReadaloud(page);
       }
-      console.log("----> XPUB.StartStopReadAloud");
     },
     "XPUB.StartReadAloud": function (params) {
-      console.log("XPUB.StartReadAloud");
       var senderPageUrl = params[0];
       var startFromBeginning = params.length > 1 ? params[1] : true;
       var url = senderPageUrl.substr(app.rendition.contentsUrl.length);
@@ -510,11 +509,13 @@ XReader.js Version ${xreader.Environment.AppVersion}`,
   },
   set currentPageNumber(value) {
     this._currentPageNumber = value;
-    console.info(
-      "current page is now",
-      this._currentPageNumber,
-      this.currentPage
-    );
+    if (showNativeLog) {
+      console.info(
+        "current page is now",
+        this._currentPageNumber,
+        this.currentPage
+      );
+    }
   },
 
   events: {
@@ -1470,6 +1471,8 @@ XReader.js Version ${xreader.Environment.AppVersion}`,
     } else {
       animationFunction(goToPageFn);
     }
+
+    updatePageChange && updatePageChange(pageNumber);
   },
 
   goToNextPage: function () {
