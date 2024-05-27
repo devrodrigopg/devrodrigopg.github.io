@@ -287,6 +287,7 @@ XReader.js Version ${xreader.Environment.AppVersion}`,
     },
 
     "XPUB.Ready": function (params) {
+      console.log("----> Ready");
       var pageUrl = params[0];
       // console.warn("XPUB.Ready", pageUrl, app.currentPage.url);
       if (
@@ -342,6 +343,7 @@ XReader.js Version ${xreader.Environment.AppVersion}`,
           container: ".pagesThumbnailsContainer",
         });
       }, 100);
+      console.log("----> XPUB.OpenMenu");
     },
 
     "XPUB.PlayAudio": function (params) {
@@ -429,8 +431,10 @@ XReader.js Version ${xreader.Environment.AppVersion}`,
         });
         app.startReadaloud(page);
       }
+      console.log("----> XPUB.StartStopReadAloud");
     },
     "XPUB.StartReadAloud": function (params) {
+      console.log("XPUB.StartReadAloud");
       var senderPageUrl = params[0];
       var startFromBeginning = params.length > 1 ? params[1] : true;
       var url = senderPageUrl.substr(app.rendition.contentsUrl.length);
