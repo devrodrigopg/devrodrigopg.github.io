@@ -961,8 +961,8 @@ XReader.js Version ${xreader.Environment.AppVersion}`,
         : null;
 
     if (app.readerViewWidth > 0 && app.readerViewHeight > 0) {
-      //$("#navigation").css("width", app.readerViewWidth + "px");
-      //$("#navigation").css("height", app.readerViewHeight + "px");
+      $("#navigation").css("width", app.readerViewWidth + "px");
+      $("#navigation").css("height", app.readerViewHeight + "px");
       $("#xreaderUI").css("width", app.readerViewWidth + "px");
       $("#xreaderUI").css("height", app.readerViewHeight + "px");
       $("#playScreen").css("width", app.readerViewWidth + "px");
