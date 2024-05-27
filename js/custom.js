@@ -2,7 +2,7 @@ var showConsoleLibName = false;
 var showNativeLog = false;
 var showNativeMenu = false;
 var epubIsFavorite = false;
-
+var readaloudStatus = false;
 window.addEventListener("load", function (event) {
   initScripts();
 });
@@ -18,6 +18,11 @@ function initScripts() {
   $("#closeBtn").click(function (e) {
     e.preventDefault();
     postMessageEpub("closeButton", true);
+  });
+
+  $("#readaloudBtn").click(function (e) {
+    e.preventDefault();
+    toggleReadaloud(true);
   });
 }
 
@@ -35,6 +40,7 @@ function isStartPage() {
 function epubStarted() {
   $("#favoriteBtn").css("display", "block");
   $("#closeBtn").css("display", "block");
+  $("#readaloudBtn").css("display", "block");
   $("#splashScreen").hide();
   postMessageEpub("epubStarted", true);
 }
@@ -90,6 +96,16 @@ function favoriteIcon(status) {
   } else {
     epubIsFavorite = false;
     $("#favoriteBtn .icon").removeClass("favorited");
+  }
+}
+
+function readaloudIcon(status) {
+  if (status) {
+    readaloudStatus = true;
+    $("#readaloudBtn .icon").addClass("active");
+  } else {
+    readaloudStatus = false;
+    $("#readaloudBtn .icon").removeClass("active");
   }
 }
 

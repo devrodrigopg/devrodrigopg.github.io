@@ -763,6 +763,7 @@ XReader.js Version ${xreader.Environment.AppVersion}`,
     } else {
       self.stopReadaloud();
     }
+    readaloudIcon(self.readaloudIsPlaying);
   },
   onPageReadaloudEnded: function () {
     var self = app;
