@@ -9,8 +9,6 @@ window.addEventListener("load", function (event) {
 });
 
 function initScripts() {
-  console.log("----> init Custom Scripts <----");
-
   showConsoleLibName = false;
 
   let params = new URL(document.location).searchParams;
@@ -93,12 +91,10 @@ function updatePageChange(pageNumber) {
   postMessageEpub("updatePageChange", pageNumber);
 
   if (isStartPage()) {
-    console.log("pagina inicial");
     postMessageEpub("pageStart", true);
   }
 
   if (isEndPage()) {
-    console.log("pagina final");
     postMessageEpub("pageEnd", true);
   }
 }
@@ -122,4 +118,19 @@ function postMessageEpub(messageKey, messageData) {
     const dataJson = JSON.stringify(data);
     window?.ReactNativeWebView?.postMessage(dataJson);
   }
+}
+
+function toggleReadaloud(turnsPagesAutomatically) {
+  if (app.toggleReadaloud) {
+    app.readaloudTurnsPagesAutomatically = turnsPagesAutomatically || false;
+    app.toggleReadaloud();
+  }
+}
+
+function setTurnsPagesAutomatically(turnsPagesAutomatically) {
+  app.readaloudTurnsPagesAutomatically = turnsPagesAutomatically || false;
+}
+
+function getTurnsPagesAutomatically() {
+  return app.readaloudTurnsPagesAutomatically;
 }

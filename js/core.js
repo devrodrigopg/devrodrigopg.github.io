@@ -446,7 +446,7 @@ var xreader = window.PubViewer || {
           }
           xreader.onWindowResize();
         }
-      }, 250);
+      }, 500);
     }
 
     $(window).on("wheel", function (ev, iframeEvent) {
