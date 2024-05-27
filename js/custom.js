@@ -109,6 +109,7 @@ function toggleReadaloud(turnsPagesAutomatically) {
     app.readaloudTurnsPagesAutomatically = turnsPagesAutomatically || false;
     app.toggleReadaloud();
   }
+  return;
 }
 
 function setTurnsPagesAutomatically(turnsPagesAutomatically) {
