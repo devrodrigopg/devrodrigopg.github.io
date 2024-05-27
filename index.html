@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/navigation.css" />
     <link rel="icon" type="image/png" href="images/favicon.png" />
   </head>
   <body>
@@ -72,23 +73,45 @@
 
     <div id="overlay"></div>
     <nav id="navigation" aria-label="Navigation Arrows">
-      <div
-        id="previousPageBtn"
-        class="navArrow"
-        style="display: none"
-        role="button"
-        aria-label="Previous Page"
-      >
-        <div class="icon"></div>
+      <div id="navigationTop">
+        <div
+          id="favoriteBtn"
+          class="navButton navFavorite"
+          style="display: none"
+          role="button"
+          aria-label="Favoritar/Desfavoritar"
+        >
+          <div class="icon"></div>
+        </div>
+        <div
+          id="closeBtn"
+          class="navButton navClose"
+          style="display: none"
+          role="button"
+          aria-label="Fechar"
+        >
+          <div class="icon"></div>
+        </div>
       </div>
-      <div
-        id="nextPageBtn"
-        class="navArrow"
-        style="display: none"
-        role="button"
-        aria-label="Next Page"
-      >
-        <div class="icon"></div>
+      <div id="navigationBottom">
+        <div
+          id="previousPageBtn"
+          class="navArrow"
+          style="display: none"
+          role="button"
+          aria-label="Voltar"
+        >
+          <div class="icon"></div>
+        </div>
+        <div
+          id="nextPageBtn"
+          class="navArrow"
+          style="display: none"
+          role="button"
+          aria-label="Próximo"
+        >
+          <div class="icon"></div>
+        </div>
       </div>
     </nav>
 
