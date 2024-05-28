@@ -122,12 +122,12 @@
 }
 
 #navigation .navReadaloud .icon {
-  background-image: url("../images/buttonNavigation/favorite.png");
+  background-image: url("../images/buttonNavigation/readaloudInactive.png");
   filter: drop-shadow(0px 0px 4px #ddd);
 }
 
 #navigation .navReadaloud .icon.active {
-  background-image: url("../images/buttonNavigation/favoriteActive.png");
+  background-image: url("../images/buttonNavigation/readaloud.png");
 }
 
 #navigation .navReadaloud:hover .icon {

@@ -358,7 +358,7 @@ var xreader = window.PubViewer || {
    * @memberof xreader
    */
   init: function () {
-    if (document.body == null) {
+    if (document.body == null || !app) {
       // document is not yet ready. retry in a few moments
       setTimeout(function () {
         xreader.init();
