@@ -38,8 +38,13 @@ function isStartPage() {
 }
 
 function epubStarted() {
-  $("#favoriteBtn").css("display", "block");
-  $("#closeBtn").css("display", "block");
+  if (showFavorite) {
+    $("#favoriteBtn").css("display", "block");
+  }
+  if (showClose) {
+    $("#closeBtn").css("display", "block");
+  }
+
   $("#readaloudBtn").css("display", "block");
   $("#splashScreen").hide();
   postMessageEpub("epubStarted", true);

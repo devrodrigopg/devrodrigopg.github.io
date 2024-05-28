@@ -19,6 +19,8 @@
       if (PubViewer) {
         let params = new URL(document.location).searchParams;
         var epubPath = params.get("epub");
+        var showFavorite = params.get("showFavorite") === "true";
+        var showClose = params.get("showClose") === "true";
 
         const renditionsMobile = document.createElement("script");
         const renditionsDesktop = document.createElement("script");
