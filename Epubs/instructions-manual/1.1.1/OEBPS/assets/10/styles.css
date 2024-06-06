@@ -1,0 +1,151 @@
+div.SCContent {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.SCAnimation canvas {
+	/*
+	-ms-transform: scale(1);
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-ms-transform-origin: 0px 0px;
+	-moz-transform-origin: 0px 0px;
+	-webkit-transform-origin: 0px 0px;
+	transform-origin: 0px 0px;
+	*/
+	pointer-events: none;
+}
+
+
+div#obj43 {
+position: absolute;
+overflow: hidden;
+top: 200px;
+left: 317px;
+width: 387px;
+height: 289px;
+opacity: 1;
+z-index: 0;
+display:block;
+pointer-events: none;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+img#obj43_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 387px;
+	height: 289px;
+}
+div#obj401 {
+position: absolute;
+overflow: hidden;
+top: 570px;
+left: 404px;
+width: 230px;
+height: 93px;
+opacity: 1;
+z-index: 1;
+display:block;
+pointer-events: none;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+img#obj401_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 230px;
+	height: 93px;
+}
+
+div#obj403 {
+position: absolute;
+overflow: hidden;
+top: 672px;
+left: 356px;
+width: 329px;
+height: 97px;
+opacity: 1;
+z-index: 2;
+display:block;
+pointer-events: auto;
+user-select: text;  
+-moz-user-select: text;
+-webkit-user-select: text;
+-ms-user-select: text;
+
+}
+div#obj403_content {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+font-family: Lato, Arial, Helvetica, Sans-Serif;
+font-size: 20px;
+line-height: 1.2;
+color: #000000
+}
+p, h1, h2, h3, h4, h5, h6 { margin: 0px; padding: 0px; }
+:link { color: #0A52A2; }
+:visited { color: #5B2599; }
+/* Start of default CSS Styles */
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    padding: 0px;
+}
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.17em; }
+h4 { font-size: 1.12em; }
+h5 { font-size: .83em; }
+h6 { font-size: .67em; }
+/* End of default CSS Styles */
+/* Insert your Text Styles Formats below */
+.SCText span.Add-Margin {
+	margin: 10px;
+}
+.SCText span.Float-Left {
+	float: left;
+}
+.SCText span.Float-Right {
+	float: right;
+}
+.SCText span.Shadowed {
+	text-shadow: #000000 1px 1px 2px;
+}
+.SCText span.Vertical-Align-Middle {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/* Enter your custom styles below */
+/* STYLES EXTRACTED FROM TEXT OBJECTS */
+
+/* STYLES EXTRACTED FROM TEXT OBJECTS */
+
+.SCPage {
+background-color: #FFFFFF
+}
