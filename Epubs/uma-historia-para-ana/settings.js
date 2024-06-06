@@ -1,1 +1,0 @@
-PubViewer.Document.Settings = {"appIdentifier":"0482F32359DE4B828D55319744391CFB","appName":"Uma história para Ana","backgroundColor":"#EFEEE8","facingPagesInLandscape":false,"lockOrientation":false,"restoreLatestPage":true};
