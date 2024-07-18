@@ -12,14 +12,9 @@ function initScripts() {
 
   $("#favoriteBtn").click(function (e) {
     e.preventDefault();
-    alert("clico1");
-    postMessageEpub("favoriteButton", true);
-    postMessageEpub("click favoriteButton", "click");
-  });
+    alert("clico favoriteButton", epubIsFavorite);
 
-  $("#favoriteBtn2").click(function (e) {
-    e.preventDefault();
-    alert("clico2");
+    postMessageEpub("favoriteButton", !epubIsFavorite);
   });
 
   $("#closeBtn").click(function (e) {
