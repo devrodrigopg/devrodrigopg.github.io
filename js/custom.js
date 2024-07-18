@@ -12,7 +12,7 @@ function initScripts() {
 
   $("#favoriteBtn").click(function (e) {
     e.preventDefault();
-    alert("clico favoriteButton", epubIsFavorite);
+    alert("clico favoriteButton" + epubIsFavorite);
 
     postMessageEpub("favoriteButton", !epubIsFavorite);
   });
