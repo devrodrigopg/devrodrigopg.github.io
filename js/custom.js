@@ -148,5 +148,5 @@ function getTurnsPagesAutomatically() {
 }
 
 function teste(status) {
-  alert("teste: " + status);
+  alert("teste: ");
 }
