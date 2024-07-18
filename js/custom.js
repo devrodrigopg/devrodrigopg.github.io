@@ -18,7 +18,7 @@ function initScripts() {
 
   $("#favoriteBtn2").click(function (e) {
     e.preventDefault();
-    postMessageEpub("favoriteButton2", !epubIsFavorite);
+    alert("clico");
   });
 
   $("#closeBtn").click(function (e) {
