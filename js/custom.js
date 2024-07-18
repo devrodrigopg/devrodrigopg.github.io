@@ -12,7 +12,6 @@ function initScripts() {
 
   $("#favoriteBtn").click(function (e) {
     e.preventDefault();
-    alert("clico favoriteButton" + epubIsFavorite);
 
     postMessageEpub("favoriteButton", !epubIsFavorite);
   });
@@ -117,7 +116,7 @@ function readaloudIcon(status) {
 }
 
 function postMessageEpub(messageKey, messageData) {
-  if (messageKey && messageData) {
+  if (messageKey) {
     const data = {
       key: messageKey,
       data: messageData,
