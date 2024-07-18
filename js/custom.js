@@ -103,10 +103,10 @@ function updatePageChange(pageNumber) {
 function favoriteIcon(status) {
   if (status) {
     epubIsFavorite = true;
-    //$("#favoriteBtn .icon").addClass("favorited");
+    $("#favoriteBtn .icon").addClass("favorited");
   } else {
     epubIsFavorite = false;
-    //$("#favoriteBtn .icon").removeClass("favorited");
+    $("#favoriteBtn .icon").removeClass("favorited");
   }
 }
 
@@ -145,4 +145,8 @@ function setTurnsPagesAutomatically(turnsPagesAutomatically) {
 
 function getTurnsPagesAutomatically() {
   return app.readaloudTurnsPagesAutomatically;
+}
+
+function teste(status) {
+  alert("teste: " + status);
 }
