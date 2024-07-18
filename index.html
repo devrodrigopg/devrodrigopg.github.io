@@ -19,11 +19,13 @@
       if (PubViewer) {
         let origin = new URL(document.location).origin;
         let params = new URL(document.location).searchParams;
-        let localPath = params.get("local") === "true";
+        let useUrl = params.get("useUrl") === "true";
+        let isDevelopment = params.get("devMode") === "development";
+        let bucketName = isDevelopment ? "AppStaging" : "App";
 
-        var epubPath = localPath
+        var epubPath = useUrl
           ? params.get("epub")
-          : origin + "/epub/" + params.get("epub");
+          : origin + "/" + bucketName + "/" + params.get("epub");
 
         var showFavorite = params.get("showFavorite") === "true";
         var showClose = params.get("showClose") === "true";

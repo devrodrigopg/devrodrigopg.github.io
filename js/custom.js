@@ -22,7 +22,7 @@ function initScripts() {
 
   $("#readaloudBtn").click(function (e) {
     e.preventDefault();
-    toggleReadaloud(true);
+    toggleReadaloud(false);
   });
 }
 
