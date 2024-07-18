@@ -128,6 +128,10 @@ function postMessageEpub(messageKey, messageData) {
       data: messageData,
     };
     const dataJson = JSON.stringify(data);
+    if (messageKey === "favoriteButton") {
+      alert("postMessageEpub - " + dataJson);
+    }
+
     window?.ReactNativeWebView?.postMessage(dataJson);
   }
 }
