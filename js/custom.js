@@ -12,7 +12,6 @@ function initScripts() {
 
   $("#favoriteBtn").click(function (e) {
     e.preventDefault();
-
     postMessageEpub("favoriteButton", !epubIsFavorite);
   });
 
@@ -122,10 +121,6 @@ function postMessageEpub(messageKey, messageData) {
       data: messageData,
     };
     const dataJson = JSON.stringify(data);
-    if (messageKey === "favoriteButton") {
-      alert("postMessageEpub - " + dataJson);
-    }
-
     window?.ReactNativeWebView?.postMessage(dataJson);
   }
 }
@@ -144,8 +139,4 @@ function setTurnsPagesAutomatically(turnsPagesAutomatically) {
 
 function getTurnsPagesAutomatically() {
   return app.readaloudTurnsPagesAutomatically;
-}
-
-function teste(status) {
-  alert("teste: ");
 }
