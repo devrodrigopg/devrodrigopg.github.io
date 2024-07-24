@@ -43,7 +43,7 @@
         document.head.appendChild(renditionsMobile);
         document.head.appendChild(renditionsDesktop);
       } else {
-        window?.ReactNativeWebView?.postMessage("PubViewer not found");
+        window.ReactNativeWebView.postMessage("PubViewer not found");
         window.location.reload();
       }
     </script>
