@@ -434,11 +434,11 @@ var xreader = window.PubViewer || {
           xreader._lastKnownWindowInnerHeight = window.innerHeight;
           if (xreader.Environment.Platform == xreader.Platform.Web) {
             if (
-              document.activeElement?.tagName === "textarea" ||
-              document.getElementById("ReaderPageOne")?.contentWindow?.document
-                ?.activeElement?.tagName == "textarea" ||
-              document.getElementById("ReaderPageTwo")?.contentWindow?.document
-                ?.activeElement?.tagName == "textarea"
+              document.activeElement.tagName === "textarea" ||
+              document.getElementById("ReaderPageOne").contentWindow.document
+                .activeElement.tagName == "textarea" ||
+              document.getElementById("ReaderPageTwo").contentWindow.document
+                .activeElement.tagName == "textarea"
             ) {
               console.log("ignoring window resize while textarea is focused");
               return;
