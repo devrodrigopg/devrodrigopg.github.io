@@ -121,7 +121,7 @@ function postMessageEpub(messageKey, messageData) {
       data: messageData,
     };
     const dataJson = JSON.stringify(data);
-    window?.ReactNativeWebView?.postMessage(dataJson);
+    window.ReactNativeWebView.postMessage(dataJson);
   }
 }
 
