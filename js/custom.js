@@ -27,11 +27,11 @@ function initScripts() {
 }
 
 function getTotalPages() {
-  return app?.rendition?.data?.pages?.length || null;
+  return app.rendition.data.pages.length || null;
 }
 
 function isEndPage() {
-  return app.currentPageNumber === app?.rendition?.data?.pages?.length;
+  return app.currentPageNumber === app.rendition.data.pages.length;
 }
 function isStartPage() {
   return app.currentPageNumber === 1;
